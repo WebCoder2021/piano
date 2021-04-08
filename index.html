@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="piano.css" />
+</head>
+
+<body>
+    <section>
+        <h1>My first Piano game</h1>
+        <div class="bottom">
+            <div data-key="81" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> a </span>
+            </div>
+            <div data-key="87" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> a sharp </span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> b </span>
+            </div>
+            <div data-key="82" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> c </span>
+            </div>
+            <div data-key="84" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> c sharp </span>
+            </div>
+            <div data-key="89" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> d </span>
+            </div>
+            <div data-key="85" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> d sharp </span>
+            </div>
+            <div data-key="73" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> e </span>
+            </div>
+            <div data-key="79" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> f </span>
+            </div>
+            <div data-key="80" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> f sharp </span>
+            </div>
+            <div data-key="219" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> g </span>
+            </div>
+            <div data-key="221" class="key">
+                <kbd>Bottom</kbd>
+                <span class="sound"> g sharp </span>
+            </div>
+        </div>
+        <div class="height">
+            <div data-key="20" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> a </span>
+            </div>
+            <div data-key="65" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> a sharp </span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> b </span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> c</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> c sharp </span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> d </span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> d sharp </span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> e </span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> f </span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> f sharp </span>
+            </div>
+            <div data-key="186" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> g </span>
+            </div>
+            <div data-key="222" class="key">
+                <kbd>Hight</kbd>
+                <span class="sound"> g sharp</span>
+            </div>
+        </div>
+        <div class="middle">
+            <div data-key="16" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> a </span>
+            </div>
+            <div data-key="90" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> a sharp </span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> b </span>
+            </div>
+            <div data-key="67" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> c </span>
+            </div>
+            <div data-key="86" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> c sharp</span>
+            </div>
+            <div data-key="66" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> d </span>
+            </div>
+            <div data-key="78" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> d sharp </span>
+            </div>
+            <div data-key="77" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> e</span>
+            </div>
+            <div data-key="188" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> f </span>
+            </div>
+            <div data-key="190" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> f sharp </span>
+            </div>
+            <div data-key="191" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> g </span>
+            </div>
+            <div data-key="17" class="key">
+                <kbd>Middle</kbd>
+                <span class="sound"> g sharp </span>
+            </div>
+        </div>
+        <div style="display: none;">
+            <div data-key="49" class="key">
+
+            </div>
+            <div data-key="50" class="key">
+
+            </div>
+            <div data-key="51" class="key">
+
+            </div>
+        </div>
+
+        <audio data-key="81" src="./Sounds/bottom_a.mp3"></audio>
+        <audio data-key="87" src="./Sounds/bottom_a_sharp.mp3"></audio>
+        <audio data-key="69" src="./Sounds/bottom_b.mp3"></audio>
+        <audio data-key="82" src="./Sounds/bottom_c.mp3"></audio>
+        <audio data-key="84" src="./Sounds/bottom_c_sharp.mp3"></audio>
+        <audio data-key="89" src="./Sounds/bottom_d.mp3"></audio>
+        <audio data-key="85" src="./Sounds/bottom_d_sharp.mp3"></audio>
+        <audio data-key="73" src="./Sounds/bottom_e.mp3"></audio>
+        <audio data-key="79" src="./Sounds/bottom_f.mp3"></audio>
+        <audio data-key="80" src="./Sounds/bottom_f_sharp.mp3"></audio>
+        <audio data-key="219" src="./Sounds/bottom_g.mp3"></audio>
+        <audio data-key="221" src="./Sounds/bottom_g_sharp.mp3"></audio>
+
+        <audio data-key="65" src="./Sounds/high_a.mp3"></audio>
+        <audio data-key="20" src="./Sounds/high_a_sharp.mp3"></audio>
+        <audio data-key="83" src="./Sounds/high_b.mp3"></audio>
+        <audio data-key="68" src="./Sounds/high_c.mp3"></audio>
+        <audio data-key="70" src="./Sounds/high_c_sharp.mp3"></audio>
+        <audio data-key="71" src="./Sounds/high_d.mp3"></audio>
+        <audio data-key="72" src="./Sounds/high_d_sharp.mp3"></audio>
+        <audio data-key="74" src="./Sounds/high_e.mp3"></audio>
+        <audio data-key="75" src="./Sounds/high_f.mp3"></audio>
+        <audio data-key="76" src="./Sounds/high_f_sharp.mp3"></audio>
+        <audio data-key="186" src="./Sounds/high_g.mp3"></audio>
+        <audio data-key="222" src="./Sounds/high_g_sharp.mp3"></audio>
+
+        <audio data-key="16" src="./Sounds/middle_a.mp3"></audio>
+        <audio data-key="90" src="./Sounds/middle_a_sharp.mp3"></audio>
+        <audio data-key="88" src="./Sounds/middle_b.mp3"></audio>
+        <audio data-key="67" src="./Sounds/middle_c.mp3"></audio>
+        <audio data-key="86" src="./Sounds/middle_c_sharp.mp3"></audio>
+        <audio data-key="66" src="./Sounds/middle_d.mp3"></audio>
+        <audio data-key="78" src="./Sounds/middle_d_sharp.mp3"></audio>
+        <audio data-key="77" src="./Sounds/middle_e.mp3"></audio>
+        <audio data-key="188" src="./Sounds/middle_f.mp3"></audio>
+        <audio data-key="190" src="./Sounds/middle_f_sharp.mp3"></audio>
+        <audio data-key="191" src="./Sounds/middle_g.mp3"></audio>
+        <audio data-key="17" src="./Sounds/middle_g_sharp.mp3"></audio>
+
+
+        <audio data-key="49" src="./Sounds/correct.mp3"></audio>
+        <audio data-key="50" src="./Sounds/double_high_c.mp3"></audio>
+        <audio data-key="51" src="./Sounds/incorrect.mp3"></audio>
+    </section>
+
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
